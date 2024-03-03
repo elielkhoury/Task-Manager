@@ -4,11 +4,11 @@ A simple yet powerful task management application built with React and Bootstrap
 
 ## Features
 
-**Task Addition**: Easily add new tasks with a click of a button.
-**Task Filtering**: View tasks based on their status (All, Active, Completed) with easy-to-use filters.
-**Task Editing**: Quickly edit task names directly from the list.
-**Task Deletion**: Remove tasks that are no longer needed.
-**Persistent Storage**: Tasks are stored in `localStorage`, ensuring that your tasks persist across browser sessions.
+- Task Addition: Easily add new tasks with a click of a button.
+- Task Filtering: View tasks based on their status (All, Active, Completed) with easy-to-use filters.
+- Task Editing: Quickly edit task names directly from the list.
+- Task Deletion: Remove tasks that are no longer needed.
+- Persistent Storage: Tasks are stored in `localStorage`, ensuring that your tasks persist across browser sessions.
 
 ## Technologies Used
 
