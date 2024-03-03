@@ -13,6 +13,7 @@ A simple yet powerful task management application built with React and Bootstrap
 ## Technologies Used
 
 - React
+- Typescript
 - Vite
 - Bootstrap
 
