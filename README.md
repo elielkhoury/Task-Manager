@@ -1,30 +1,60 @@
-# React + TypeScript + Vite
+# My Task Manager Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful task management application built with React and Bootstrap. It allows users to add, edit, filter, and delete tasks efficiently, providing a seamless user experience for managing daily tasks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Task Addition**: Easily add new tasks with a click of a button.
+**Task Filtering**: View tasks based on their status (All, Active, Completed) with easy-to-use filters.
+**Task Editing**: Quickly edit task names directly from the list.
+**Task Deletion**: Remove tasks that are no longer needed.
+**Persistent Storage**: Tasks are stored in `localStorage`, ensuring that your tasks persist across browser sessions.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- Vite
+- Bootstrap
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Before you begin, ensure you have the latest version of [Node.js](https://nodejs.org/) installed on your machine. This project was built using Create React App.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+1. Clone the repository:
+git clone https://github.com/[Your GitHub Username]/[Your Repository Name].git
+
+2. Navigate to the project directory:
+cd [Your Repository Name]
+
+3. Install dependencies:
+npm install
+
+4. Start the development server:
+npm run dev
+
+The site should now be running on `http://localhost:3000`.
+
+## Deployment
+
+To build the project for production, run:
+npm run build
+
+This command prepares the app for deployment by optimizing and bundling the assets into the `dist/` directory.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improving the code or features, please feel free to fork the repository, make changes, and submit a pull request.
+
+## License
+
+This project is open source.
+
+## Contact
+
+If you have any questions or comments about the project, please feel free to reach out to me at itseliekhoury@gmail.com.
+
+---
+
+Designed and built with ❤️ by Elie Georgio El Khoury.
